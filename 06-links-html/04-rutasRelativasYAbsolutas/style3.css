@@ -1,0 +1,22 @@
+body {
+  background-color: #1d2127 ;
+  color: white;
+}
+
+h1 {
+  color: #560bad; 
+}
+
+a:link, a:visited { 
+  background-color: #b5179e;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid black;
+  display: inline-block; /* para que los elementos no se encimen y para que cada uno tenga su propio espacio */
+}
+
+a:hover, a:active {
+  background-color: #f72585;  
+}

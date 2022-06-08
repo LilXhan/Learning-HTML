@@ -1,0 +1,28 @@
+body {
+  background-color: #1d2127 ;
+  color: white;
+}
+
+h1 {
+  color: #f07167
+}
+
+a:link { /* color del link pero sin antes haberlo usado */
+  color: greenyellow;
+  text-decoration: none; /* quitar todos los decorados del link tambien el subrayado */
+}
+
+a:visited { /* color del link cuando ya hayamos hecho click al link */
+  color: #219ebc;
+  text-decoration: none;
+}
+
+a:hover { /*color cuando nos ponemos encima del link */
+  color: #8ecae6;
+  text-decoration: underline; /* añadir una decoracion al link (underline = subrayado) */
+}
+
+a:active { /* color del link cuando demos click en el enlace */
+  color: #023047;
+  text-decoration: underline;
+}
