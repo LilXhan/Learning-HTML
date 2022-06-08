@@ -1,0 +1,43 @@
+
+table{
+  width: 100%;
+
+}
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  /* border-spacing: 5px; */
+}
+
+caption {
+  color: black;
+  font-family: 'Trocchi', serif;
+  font-size: 30px;
+  line-height: 70px; 
+}
+
+th {
+  background-color: aqua;
+  color: black;
+}
+
+tr:nth-child(even){ /* tr:nth-child(even) => esta es una propiedad css para poder modificar los reglones pares */
+  background-color: beige;
+  color: black;
+}
+
+tr:nth-child(odd){ /* tr:nth-child(odd) => esta es una propiedad css para poder modificar las regiones impares */
+  background-color: #a8dadc;
+  color: black;
+}
+
+
+/*
+th {
+  text-align: left;
+}
+td {
+  text-align: center;
+}
+*/
