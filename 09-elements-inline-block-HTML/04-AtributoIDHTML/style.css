@@ -1,0 +1,18 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+body {
+  background-color: #1d2127 ;
+  color: white;
+}
+
+
+#titulo_principal {
+  color: aqua;
+  text-align: center;
+  margin-top: 10px;
+
+}

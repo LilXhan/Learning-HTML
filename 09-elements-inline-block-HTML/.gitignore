@@ -44,6 +44,5 @@ dist-ssr
 favicon.svg
 main.js 
 package.json 
-style.css
 node_modules
 package-lock.json

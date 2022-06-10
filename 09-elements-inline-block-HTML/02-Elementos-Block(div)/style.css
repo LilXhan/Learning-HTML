@@ -1,0 +1,24 @@
+
+body {
+  background-color: #1d2127 ;
+  color: white;
+}
+
+h1 {
+  color: aqua;
+  text-align: center;
+}
+
+h2 {
+  color: yellow;
+}
+
+p {
+  color: grey;
+}
+
+div {
+  border: 10px solid violet;
+  background-color: beige;
+  text-align: center;
+}
