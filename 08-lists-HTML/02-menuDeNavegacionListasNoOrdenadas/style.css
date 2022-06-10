@@ -1,0 +1,28 @@
+body {
+  background-color: #1d2127 ;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden; /* Para que la barra de navegacion se muestre solo arriba y el demas codigo HTML abajo */
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  float: left; /* Para que los items se muestren de manera horizontal */
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: grey;
+}

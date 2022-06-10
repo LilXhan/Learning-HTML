@@ -1,0 +1,22 @@
+body {
+  background-color: #1d2127 ;
+  color: white;
+}
+ 
+ol {
+  list-style-type: none;
+  counter-reset: contador;
+}
+
+ol li {
+  counter-increment: contador;
+}
+
+ol li::before { /*Agregar un elemento antes de que se visualize el elemento li => selector before = antes */
+  content: 'Curso ' counter(contador) ' => '; /*Content => agregar contenido antes; */
+  color: crimson;
+}
+
+ol li::after{ /*Agregar un elemento despues de que se visualize el elemento li => selector after = despues */
+   content: '.';
+}
